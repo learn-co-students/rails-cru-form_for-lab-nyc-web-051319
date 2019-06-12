@@ -5,3 +5,15 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Song.create(name: "bleep", genre_id: 1, artist_id: 1)
+Song.create(name: "hello", genre_id: 2, artist_id: 2)
+Song.create(name: "party", genre_id: 3, artist_id: 3)
+
+Artist.create(name: "Adele", bio: "hello")
+Artist.create(name: "Peter", bio: "rock")
+Artist.create(name: "lil man", bio: "said what")
+
+Genre.create(name: "Rock")
+Genre.create(name: "Classic")
+Genre.create(name: "Regge")
